@@ -1,0 +1,9 @@
+  } catch( ULjException exc ) {
+            Demo.displayExceptionFull( exc );
+        }
+    }
+
+    /** Add an invoice row.
+     * @param conn connection to Database
+     * @param inv_no invoice number
+     * @param name name to whom invoice was sent
